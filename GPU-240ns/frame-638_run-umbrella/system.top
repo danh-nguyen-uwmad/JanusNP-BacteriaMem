@@ -1,0 +1,21 @@
+#include "martini_v2.2.itp"
+#include "martini_v2.0_lipids_all_201506.itp"
+#include "martini_v2.0_ions.itp"
+#include "Janus_PMB.itp"
+
+[ system ]
+; name
+Martini system
+
+[ molecules ]
+; name        number
+POPE 478
+RAMP 717
+POPE 1497
+W  431062
+CA  3585
+NA  5129
+CL  5134
+W 126029
+CL 883
+MOL  1
